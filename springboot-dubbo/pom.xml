@@ -9,11 +9,12 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>study.wyy</groupId>
-    <artifactId>spring-dubbo</artifactId>
+    <artifactId>springboot-dubbo</artifactId>
+    <packaging>pom</packaging>
     <modules>
-        <module>service-consumer</module>
-        <module>service-provider</module>
+        <module>springboot-provider</module>
+        <module>springboot-consumer</module>
     </modules>
+
 
 </project>
